@@ -1,0 +1,143 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=0
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=880325055
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[CodeCoverage]
+Enabled=_ 0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.33.15" 0 0 1 "" 0 ""
+Bp1=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.34.2" 0 0 1 "" 0 ""
+Bp2=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.35.9" 0 0 1 "" 0 ""
+Bp3=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.37.2" 0 0 1 "" 0 ""
+Bp4=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.38.9" 0 0 1 "" 0 ""
+Bp5=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.39.2" 0 0 1 "" 0 ""
+Bp6=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.48.15" 0 0 1 "" 0 ""
+Bp7=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.49.2" 0 0 1 "" 0 ""
+Bp8=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.50.9" 0 0 1 "" 0 ""
+Bp9=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.52.2" 0 0 1 "" 0 ""
+Bp10=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.53.9" 0 0 1 "" 0 ""
+Bp11=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.54.2" 0 0 1 "" 0 ""
+Bp12=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.57.11" 0 0 1 "" 0 ""
+Bp13=_ 0 "STD_CODE2" "{$PROJ_DIR$\..}.82.1" 0 0 1 "" 0 ""
+Bp14=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.42.11" 0 0 1 "" 0 ""
+Bp15=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.25.15" 0 0 1 "" 0 ""
+Bp16=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.26.15" 0 0 1 "" 0 ""
+Bp17=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.28.2" 0 0 1 "" 0 ""
+Bp18=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.29.2" 0 0 1 "" 0 ""
+Bp19=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.30.2" 0 0 1 "" 0 ""
+Bp20=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.32.2" 0 0 1 "" 0 ""
+Bp21=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.33.2" 0 0 1 "" 0 ""
+Bp22=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.36.2" 0 0 1 "" 0 ""
+Bp23=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp24=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp25=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp26=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.25.7" 0 0 1 "" 0 ""
+Bp27=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.27.7" 0 0 1 "" 0 ""
+Bp28=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp29=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp30=_ 0 "STD_CODE2" "{$PROJ_DIR$\test_no_funcs.c}.59.5" 0 0 1 "" 0 ""
+Bp31=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.37.3" 0 0 1 "" 0 ""
+Bp32=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.47.5" 0 0 1 "" 0 ""
+Bp33=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.66.3" 0 0 1 "" 0 ""
+Bp34=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.67.3" 0 0 1 "" 0 ""
+Bp35=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.68.3" 0 0 1 "" 0 ""
+Bp36=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.23.3" 0 0 1 "" 0 ""
+Bp37=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp38=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp39=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.62.3" 0 0 1 "" 0 ""
+Bp40=_ 0 "STD_CODE2" "{$PROJ_DIR$\testLeaks.c}.56.3" 0 0 1 "" 0 ""
+Bp41=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.97.1" 0 0 1 "" 0 ""
+Bp42=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.175.1" 0 0 1 "" 0 ""
+Bp43=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.175.3" 0 0 1 "" 0 ""
+Bp44=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.30.3" 0 0 1 "" 0 ""
+Bp45=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.31.3" 0 0 1 "" 0 ""
+Bp46=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.32.3" 0 0 1 "" 0 ""
+Bp47=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.55.3" 0 0 1 "" 0 ""
+Bp48=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.38.15" 0 0 1 "" 0 ""
+Bp49=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.25.3" 0 0 1 "" 0 ""
+Bp50=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.28.3" 0 0 1 "" 0 ""
+Bp51=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.31.3" 0 0 1 "" 0 ""
+Bp52=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.29.3" 0 0 1 "" 0 ""
+Bp53=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.38.15" 0 0 1 "" 0 ""
+Bp54=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.39.15" 0 0 1 "" 0 ""
+Bp55=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.42.3" 0 0 1 "" 0 ""
+Bp56=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.42.3" 0 0 1 "" 0 ""
+Bp57=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.55.3" 0 0 1 "" 0 ""
+Bp58=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.63.3" 0 0 1 "" 0 ""
+Bp59=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.63.3" 0 0 1 "" 0 ""
+Bp60=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.61.3" 0 0 1 "" 0 ""
+Bp61=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.53.3" 0 0 1 "" 0 ""
+Bp62=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.26.3" 0 0 1 "" 0 ""
+Bp63=_ 1 "STD_CODE2" "{$PROJ_DIR$\calculator.c}.43.3" 0 0 1 "" 0 ""
+Count=64
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Aliases]
+Count=0
+SuppressDialog=0
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1

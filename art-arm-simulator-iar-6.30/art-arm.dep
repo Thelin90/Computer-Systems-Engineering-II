@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4165433797</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\context.s79</file>
+      <file>$PROJ_DIR$\calculator.c</file>
+      <file>$PROJ_DIR$\dlist.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep_sim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\context.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\art-arm.pbd</file>
+      <file>$PROJ_DIR$\test_os.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\art-arm.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\context-demo.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\[ROOT_NODE]</file>
+      <file>$PROJ_DIR$\generic.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\context-demo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\context-demo.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\dlist.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+      <file>$PROJ_DIR$\kernel_hwdep.c</file>
+      <file>$PROJ_DIR$\vectors.s79</file>
+      <file>$PROJ_DIR$\Debug\Obj\inter_process_communication.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dlist.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep.o</file>
+      <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_no_funcs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\elevator.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\elevator.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\calculator.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\calculator.pbi</file>
+      <file>$PROJ_DIR$\timer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_no_funcs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_os.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_os.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep_sim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\testLeaks.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\testLeaks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vectors.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\inter_process_communication.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\dlist.h</file>
+      <file>$PROJ_DIR$\elevator.c</file>
+      <file>$PROJ_DIR$\inter_process_communication.c</file>
+      <file>$PROJ_DIR$\kernel.c</file>
+      <file>$PROJ_DIR$\kernel.h</file>
+      <file>$PROJ_DIR$\kernel_hwdep.h</file>
+      <file>$PROJ_DIR$\kernel_hwdep_sim.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\task.c</file>
+      <file>$PROJ_DIR$\test_no_funcs.c</file>
+      <file>$PROJ_DIR$\testLeaks.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\context.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\calculator.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 44 45 21 12 69 68 29 56 57 48 64 60 5 41 49 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69 5 6 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dlist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 44 48 41 12 56 45 68 21 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\test_os.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 68 48 12 29 41 64 60 44 56 45 21 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\art-arm.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 16 33 4 20 32 25 47 3 59 52 36 46 40 19 58 28 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\context-demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 45 21 56 57 48 44 41 49 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\kernel_hwdep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 49 41 12 48 56 21 57 44 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 48 12 45 21 57 56 49 41 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vectors.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 45 21 69 48 29 41 68 64 60 44 56 57 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\elevator.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 45 21 69 44 29 56 68 64 60 48 41 57 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\inter_process_communication.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 69 48 44 41 68 29 53 49 6 64 60 7 5 56 45 21 57 63 55 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 7 63 53 55 5 6 13 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\kernel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 21 69 12 29 44 56 57 48 64 60 41 49 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\kernel_hwdep_sim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 49 41 12 48 56 21 57 44 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 48 12 45 21 57 56 49 41 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 69 29 48 49 12 64 60 44 56 45 21 57 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 69 29 48 49 12 64 60 44 56 45 21 57 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\test_no_funcs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 56 68 57 12 48 29 45 21 64 60 41 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\testLeaks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 68 45 21 48 29 44 56 57 64 60 41 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 44 48 12 45 21 57 56 49 41 64 29 60</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
